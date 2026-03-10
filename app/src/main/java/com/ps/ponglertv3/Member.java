@@ -1,3 +1,5 @@
+package com.ps.ponglertv3;
+
 import java.io.Serializable;
 
 public class Member implements Serializable {
