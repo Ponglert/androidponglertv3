@@ -105,5 +105,12 @@ public class MainActivity extends AppCompatActivity implements MemberAdapter.OnM
         memberRV.setAdapter(adapter);
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        getData();
+    }
+
+
 
 }
